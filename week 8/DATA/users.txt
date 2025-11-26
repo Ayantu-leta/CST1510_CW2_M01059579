@@ -1,4 +1,0 @@
-alice,$2b$12$bCYN.bMsNWPrAVEAt7qgne.iNWUaar0FtcIkvzPRHOiX7R4k2DYmO, Admin
-maria,$2b$12$4bV77iioBfnQUmvCDhlUJOe4aV08BKm708/xgR85ZvboWcM3ynbTi, analyst
-ali,$2b$12$xvHZnJvWCxDYzdFLNRriYeMUw3QgSQYYToOtVMpZozLuQzIqoBM52, user
-bob,$2b$12$nOFZIOhXkNvwQrH6AzNXmu1NFtgFZlGV9uTkVlopdx7QPBOY6UIeK, user
