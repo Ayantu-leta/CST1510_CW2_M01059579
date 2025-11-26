@@ -14,7 +14,7 @@ def insert_dataset(name, category, source):
     cursor = conn.cursor()
     try:
         #Updated column names to match the defined datasets_metadata schema
-        #(dataset_name, category, source)
+        #(Kernel, Owner, Dataset)
         cursor.execute("""
             INSERT INTO datasets_metadata (name, description, main_speaker )
             VALUES (?, ?, ? )
