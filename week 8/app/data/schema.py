@@ -65,7 +65,7 @@ def create_cyber_incidents_table(conn):
 def create_datasets_metadata_table(conn):
     """
     Create the datasets_metadata table using custom CSV file names.
-    These column names like film_date, main_speaker match the headers 
+    These column names like votes, owner match the headers 
  
     """
 
@@ -74,24 +74,19 @@ def create_datasets_metadata_table(conn):
     create_table_sql = """
     CREATE TABLE IF NOT EXISTS datasets_metadata (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        comments TEXT,
-        description TEXT,
-        duration TEXT,
-        event TEXT,
-        film_date TEXT,
-        languages TEXT,
-        main_speaker TEXT,
-        name TEXT,
-        num_speaker TEXT,
-        published_date TEXT,
-        ratings TEXT,
-        related_talks TEXT,
-        speaker_occupation TEXT,
-        tags TEXT,
-        title TEXT,
-        url TEXT,
-        views TEXT,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        Kernel TEXT NOT NULL,
+        Votes INTEGER,
+        Owner INTEGER,
+        dataset TEXT,
+        Version_History TEXT,
+        Tags TEXT,
+        Output TEXT,
+        Code_Type INTEGER,
+        Language TEXT,
+        Comments TEXT,
+        Views TEXT,
+        Forks INTEGER
+        
     )
     """
     cursor.execute(create_table_sql)
