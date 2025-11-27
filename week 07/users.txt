@@ -1,4 +1,0 @@
-ali,$2b$12$31YwvdB6I5UbAHONdolzo.6CbgipxUqihSyXbDQCD0Jb7rOrO95HC, admin
-helen,$2b$12$y3jx3y53sIxOUsLL8/GW/uONC2DTN3wAJf5Ac3aGuJYoZqmpB8AAq, user
-bob,$2b$12$n.HYQqms5oPQzvjlJCo2uOSMycIz4JGFoRVCMwxrWi59gXMdE0.WS, user
-maria,$2b$12$yLlqwHRNyEtxZccw4fiChOWBJxGVNIOWtwaV0e75JbKk9jxJhp5Ea, user
