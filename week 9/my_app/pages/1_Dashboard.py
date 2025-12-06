@@ -85,8 +85,8 @@ with col2:
         st.switch_page("pages/3_Datascience.py")
 
 with col3:
-    if st.button("📝 Data Management"):  
-        st.switch_page("pages/4_CRUD.py")  
+    if st.button("⚙️ IT Operations"):  
+        st.switch_page("pages/4_Itoperations.py")  
 
 st.divider()
 if st.button("Log out"):
